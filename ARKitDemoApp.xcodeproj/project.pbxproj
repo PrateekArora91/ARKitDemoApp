@@ -15,6 +15,7 @@
 		B50EE30E276A0D900060D3C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50EE30C276A0D900060D3C2 /* LaunchScreen.storyboard */; };
 		B50EE319276A0D900060D3C2 /* ARKitDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50EE318276A0D900060D3C2 /* ARKitDemoAppTests.swift */; };
 		B50EE324276A0D900060D3C2 /* ARKitDemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50EE323276A0D900060D3C2 /* ARKitDemoAppUITests.swift */; };
+		B50EE332276A0FC10060D3C2 /* YML.png in Resources */ = {isa = PBXBuildFile; fileRef = B50EE331276A0FC10060D3C2 /* YML.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B50EE31F276A0D900060D3C2 /* ARKitDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKitDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B50EE323276A0D900060D3C2 /* ARKitDemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitDemoAppUITests.swift; sourceTree = "<group>"; };
 		B50EE325276A0D900060D3C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B50EE331276A0FC10060D3C2 /* YML.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YML.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				B50EE305276A0D8D0060D3C2 /* ViewController.swift */,
 				B50EE307276A0D8D0060D3C2 /* Main.storyboard */,
 				B50EE30A276A0D900060D3C2 /* Assets.xcassets */,
+				B50EE331276A0FC10060D3C2 /* YML.png */,
 				B50EE30C276A0D900060D3C2 /* LaunchScreen.storyboard */,
 				B50EE30F276A0D900060D3C2 /* Info.plist */,
 			);
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B50EE332276A0FC10060D3C2 /* YML.png in Resources */,
 				B50EE30E276A0D900060D3C2 /* LaunchScreen.storyboard in Resources */,
 				B50EE30B276A0D900060D3C2 /* Assets.xcassets in Resources */,
 				B50EE309276A0D8D0060D3C2 /* Main.storyboard in Resources */,
@@ -437,12 +441,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ARK33PUB7;
 				INFOPLIST_FILE = ARKitDemoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = YML.ARKitDemoApp;
+				PRODUCT_BUNDLE_IDENTIFIER = prateek.ARKitDemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -455,12 +460,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ARK33PUB7;
 				INFOPLIST_FILE = ARKitDemoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = YML.ARKitDemoApp;
+				PRODUCT_BUNDLE_IDENTIFIER = prateek.ARKitDemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -480,7 +486,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = YML.ARKitDemoAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = Prateek.ARKitDemoAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -501,7 +507,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = YML.ARKitDemoAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = Prateek.ARKitDemoAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -520,7 +526,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = YML.ARKitDemoAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = Prateek.ARKitDemoAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -539,7 +545,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = YML.ARKitDemoAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = Prateek.ARKitDemoAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
